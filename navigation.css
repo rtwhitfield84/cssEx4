@@ -1,0 +1,28 @@
+/*NAV Styles*/
+
+#navBar {
+	color: blue;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navBar li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+/*Nav UI Styles*/
+
+#navBar li:hover {
+background-color: black; 
+}
+
+#navBar a:hover {
+	color: white;
+}
+
+#navBar li:active {
+	padding: 0 5px 0 5px;
+}
